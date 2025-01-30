@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - Logout with Profile Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5fba07b-9d2b-4432-87d8-48d0fb4103c6</testCaseGuid>
+</TestCaseEntity>

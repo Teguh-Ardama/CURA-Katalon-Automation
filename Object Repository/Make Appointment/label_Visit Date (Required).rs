@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Visit Date (Required)</name>
+   <tag></tag>
+   <elementGuidId>cda2834c-4bcc-4400-b404-da9d67daf492</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/form/div[4]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>102d1137-b799-46f5-8702-327576fed7c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>txt_visit_date</value>
+      <webElementGuid>14f881ed-6a63-4f10-8e14-4b0f720f41ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-offset-3 col-sm-2 control-label</value>
+      <webElementGuid>c5ec5de1-78d5-4f43-80a0-3b8bb7d4bf8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Visit Date (Required)</value>
+      <webElementGuid>f104bc17-e36c-4650-bb68-a3e78ff7042c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/label[@class=&quot;col-sm-offset-3 col-sm-2 control-label&quot;]</value>
+      <webElementGuid>4d003248-5b0e-44db-931f-93f95625288e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='appointment']/div/div/form/div[4]/label</value>
+      <webElementGuid>2acef280-8307-4dfa-8f4c-ca4aab827f0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/preceding::label[1]</value>
+      <webElementGuid>c78c7529-153c-42fa-af74-25800d7f2ce9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Appointment'])[1]/preceding::label[2]</value>
+      <webElementGuid>cc415de2-a3c4-4fe4-8eb2-a4e41ce9635c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Visit Date (Required)']/parent::*</value>
+      <webElementGuid>3bd7a679-268a-4c6a-9615-59cd4e4bad72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/label</value>
+      <webElementGuid>902627ac-0cd4-4341-be9d-4af191429688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Visit Date (Required)' or . = 'Visit Date (Required)')]</value>
+      <webElementGuid>8833e1a8-1d0e-4eac-92a5-746921817538</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

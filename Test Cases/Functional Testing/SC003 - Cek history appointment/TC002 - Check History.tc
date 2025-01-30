@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - Check History</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>122beb11-24ad-4164-b2f9-48bfc9ee114d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c1877b3b-59dc-4f07-97bc-27796003ea2d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6eef95cd-212b-4865-a67c-28eba6b8510a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4590657-722b-48fe-bc5c-e959d1eabd98</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc04a4f9-0b99-4e6a-b480-18bab229bcaf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9b17493-14ff-4c27-b0a1-fea30000b29d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tokyo CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>c1877b3b-59dc-4f07-97bc-27796003ea2d</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'TRUE'</defaultValue>
+      <description></description>
+      <id>6eef95cd-212b-4865-a67c-28eba6b8510a</id>
+      <masked>false</masked>
+      <name>applyReadmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medicare'</defaultValue>
+      <description></description>
+      <id>d4590657-722b-48fe-bc5c-e959d1eabd98</id>
+      <masked>false</masked>
+      <name>healthcareProgram</name>
+   </variable>
+   <variable>
+      <defaultValue>'27/10/2024'</defaultValue>
+      <description></description>
+      <id>dc04a4f9-0b99-4e6a-b480-18bab229bcaf</id>
+      <masked>false</masked>
+      <name>visitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'TEGUH ARDAMA'</defaultValue>
+      <description></description>
+      <id>c9b17493-14ff-4c27-b0a1-fea30000b29d</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

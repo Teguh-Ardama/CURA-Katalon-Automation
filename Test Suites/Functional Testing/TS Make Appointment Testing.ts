@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS Make Appointment Testing</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>teguhardama75@gmail.com;maia.manami@gmail.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9c4dcc7e-6a8f-4f62-be41-f37ea4e13306</testSuiteGuid>
+   <testCaseLink>
+      <guid>e3ce7817-12f6-4db8-8a45-0d3cc6c62e1c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Functional Testing/SC002 - Booking appointment/TC006 - Submit with all field filled with Check Summary</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2672ceec-893d-4108-8eea-85d127260a7c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data/makeAppointment</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2672ceec-893d-4108-8eea-85d127260a7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>aca14601-202c-4cf9-b6b0-cfd6f43a475a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2672ceec-893d-4108-8eea-85d127260a7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>applyReadmission</value>
+         <variableId>908b9393-f000-49ec-9614-7887c854a5ca</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2672ceec-893d-4108-8eea-85d127260a7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>healthcareProgram</value>
+         <variableId>3a30a35d-97fb-458d-8c0a-f0086a949fcf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2672ceec-893d-4108-8eea-85d127260a7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>visitDate</value>
+         <variableId>a1111f4e-864d-4421-8a6c-2eaadc7f085e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2672ceec-893d-4108-8eea-85d127260a7c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>54186e32-5895-47e4-ac2e-79b17338746b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Healthcare Program</name>
+   <tag></tag>
+   <elementGuidId>29e728da-a0a6-461f-97f6-e1d4e688a67e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/form/div[3]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>8a193e64-f9e7-47b1-ab5f-b6f058b473bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-offset-3 col-sm-2 control-label</value>
+      <webElementGuid>792b9756-b7d5-408b-9706-801a50fd4ae3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Healthcare Program</value>
+      <webElementGuid>7a7ad0cd-5f2a-4faf-870f-7377a3c19412</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/label[@class=&quot;col-sm-offset-3 col-sm-2 control-label&quot;]</value>
+      <webElementGuid>df03c2c5-45e2-4488-931d-b2c68071b43c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='appointment']/div/div/form/div[3]/label</value>
+      <webElementGuid>1825af98-e50f-4bb9-9b02-4eb261705077</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::label[2]</value>
+      <webElementGuid>703ba753-9932-4d65-b768-14209039cf15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Healthcare Program']/parent::*</value>
+      <webElementGuid>57c5f494-ff5b-4687-956f-9296bac73f08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label</value>
+      <webElementGuid>5dd5c442-b707-4db4-b915-d20295ddca02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Healthcare Program' or . = 'Healthcare Program')]</value>
+      <webElementGuid>2d049a86-6a89-4fed-a3ff-cd950a7ea0dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

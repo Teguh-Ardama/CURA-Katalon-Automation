@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004 - Logout and check button logout in navbar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac67ea1b-9dca-4371-b00c-388661e51238</testCaseGuid>
+</TestCaseEntity>

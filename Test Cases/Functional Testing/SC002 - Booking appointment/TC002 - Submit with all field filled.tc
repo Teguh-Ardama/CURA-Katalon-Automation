@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit dengan mengisi semua field (Positif)</description>
+   <name>TC002 - Submit with all field filled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>239ca8c8-e906-4f85-baaa-93ca8c301c15</testCaseGuid>
+</TestCaseEntity>

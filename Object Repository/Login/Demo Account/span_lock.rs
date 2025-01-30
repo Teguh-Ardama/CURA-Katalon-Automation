@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_lock</name>
+   <tag></tag>
+   <elementGuidId>8308a436-b412-4dee-82a9-252297ea5039</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.glyphicon.glyphicon-lock</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='demo_password_label']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>65a3732f-aa2b-46bc-ad2f-43e31551728e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon glyphicon-lock</value>
+      <webElementGuid>0c65e9fd-4a36-4dbd-b3df-37663d9040d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f5e46a8e-b525-4ab6-bd91-e7277d132351</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;demo_password_label&quot;)/span[@class=&quot;glyphicon glyphicon-lock&quot;]</value>
+      <webElementGuid>5ae16030-0dfb-4826-a6bd-510e4dfd2129</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='demo_password_label']/span</value>
+      <webElementGuid>e0ebff60-d7cd-48b3-b794-eb041ca98943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span/span</value>
+      <webElementGuid>57af65d3-0a6c-4350-b444-cbf47ac1db2b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

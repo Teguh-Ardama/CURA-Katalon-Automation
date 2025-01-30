@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 - Logout without login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>592798e8-644a-4fac-abd5-2f50ec633abb</testCaseGuid>
+</TestCaseEntity>

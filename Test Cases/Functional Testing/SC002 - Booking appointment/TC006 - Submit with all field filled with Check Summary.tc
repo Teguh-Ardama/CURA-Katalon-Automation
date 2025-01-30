@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit dengan mengisi semua field (Positif)</description>
+   <name>TC006 - Submit with all field filled with Check Summary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f506fe4-b08c-4d41-98be-17e747cfe8a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aca14601-202c-4cf9-b6b0-cfd6f43a475a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>908b9393-f000-49ec-9614-7887c854a5ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a30a35d-97fb-458d-8c0a-f0086a949fcf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1111f4e-864d-4421-8a6c-2eaadc7f085e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54186e32-5895-47e4-ac2e-79b17338746b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Tokyo CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>aca14601-202c-4cf9-b6b0-cfd6f43a475a</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'TRUE'</defaultValue>
+      <description></description>
+      <id>908b9393-f000-49ec-9614-7887c854a5ca</id>
+      <masked>false</masked>
+      <name>applyReadmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medicare'</defaultValue>
+      <description></description>
+      <id>3a30a35d-97fb-458d-8c0a-f0086a949fcf</id>
+      <masked>false</masked>
+      <name>healthcareProgram</name>
+   </variable>
+   <variable>
+      <defaultValue>'27/10/2024'</defaultValue>
+      <description></description>
+      <id>a1111f4e-864d-4421-8a6c-2eaadc7f085e</id>
+      <masked>false</masked>
+      <name>visitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'TEGUH ARDAMA'</defaultValue>
+      <description></description>
+      <id>54186e32-5895-47e4-ac2e-79b17338746b</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+</TestCaseEntity>

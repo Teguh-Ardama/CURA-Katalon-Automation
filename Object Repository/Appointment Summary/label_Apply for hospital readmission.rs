@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Apply for hospital readmission</name>
+   <tag></tag>
+   <elementGuidId>dd3f82a1-03d1-48b8-a5ee-380be6d66530</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='summary']/div/div/div[3]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>bf7e18d4-816f-48c8-98ec-0a64e7cb83af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>hospital_readmission</value>
+      <webElementGuid>51c77c86-e5f5-4e10-b28d-5cfb1cae1b7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apply for hospital readmission</value>
+      <webElementGuid>2eb5c49b-b129-4583-b9d4-a60410af11cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;summary&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-offset-2 col-xs-8&quot;]/div[@class=&quot;col-xs-4&quot;]/label[1]</value>
+      <webElementGuid>e7e0bfa6-af8c-4b1b-9c5f-6063220cf509</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='summary']/div/div/div[3]/div/label</value>
+      <webElementGuid>b06724cf-0620-4d84-b28f-0a26c4576df0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::label[1]</value>
+      <webElementGuid>035eeae5-0c6e-4925-91b8-0a7b0258afb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Appointment Confirmation'])[1]/following::label[2]</value>
+      <webElementGuid>5a5b0fba-be1c-4b64-97a2-847c95b5fa9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/preceding::label[1]</value>
+      <webElementGuid>101543df-c306-47c9-9f88-db21dd723255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Visit Date'])[1]/preceding::label[2]</value>
+      <webElementGuid>370d4977-a16e-4dd7-8a9f-4bdf169680e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Apply for hospital readmission']/parent::*</value>
+      <webElementGuid>aa21cb11-757a-451e-9486-46ccd40d5fb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/label</value>
+      <webElementGuid>ff5ab3b0-eee3-4d85-9446-9444ca24370f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Apply for hospital readmission' or . = 'Apply for hospital readmission')]</value>
+      <webElementGuid>c68a7e99-4a83-40d6-87db-90780a49e36b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

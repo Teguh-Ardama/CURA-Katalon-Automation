@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit dengan mengisi semua field tanpa mengisi check apply (Positif)</description>
+   <name>TC003 - Submit without check apply</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35a50e43-5f40-400b-aa50-74f83c8b16e7</testCaseGuid>
+</TestCaseEntity>

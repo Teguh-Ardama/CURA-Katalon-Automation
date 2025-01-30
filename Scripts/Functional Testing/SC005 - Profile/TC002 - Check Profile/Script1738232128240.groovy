@@ -17,9 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Functional Testing/SC001 - Login/TC002 - Login success'), [('username') : 'John Doe', ('password') : 'ThisIsNotAPassword'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+WebUI.click(findTestObject('Navbar/i_Navbar'))
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/logout')
+WebUI.click(findTestObject('Navbar/a_Profile'))
+
+WebUI.verifyElementPresent(findTestObject('Profile/h2_Profile'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Profile/p_Under construction'), 0)
+
+WebUI.click(findTestObject('Profile/a_Logout'))
+
+WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

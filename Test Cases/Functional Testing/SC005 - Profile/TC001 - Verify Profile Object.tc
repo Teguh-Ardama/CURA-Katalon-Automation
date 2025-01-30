@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC003 - Check history without making an appointment</name>
+   <name>TC001 - Verify Profile Object</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>918b0841-b6ab-43c1-901f-992217d9d14d</testCaseGuid>
+   <testCaseGuid>d8483b0e-bc66-4336-a718-97b5acf0a122</testCaseGuid>
 </TestCaseEntity>

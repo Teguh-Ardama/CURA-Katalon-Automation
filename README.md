@@ -14,44 +14,24 @@ CURA-Katalon-Automation/
 │   │   ├── Close Browser
 │   │   ├── History
 │   │   ├── Login
-│   │   ├── Logout (Navbar & Profile)
+│   │   ├── Logout
 │   │   ├── Make Appointment
 │   │   ├── Open Browser
 │   │   ├── Open Login Page
-│   ├── E2E Testing (Blocks)/
+│   ├── E2E Testing/
 │   │   ├── TC001 - Login
 │   │   ├── TC002 - Book Appointment
 │   │   ├── TC003 - Check History
 │   │   ├── TC004 - Logout
 │   ├── Functional Testing/
 │   │   ├── SC001 - Login
-│   │   │   ├── TC001 - Verify Login object
-│   │   │   ├── TC002 - Login success
-│   │   │   ├── TC003 - Login with empty field
-│   │   │   ├── TC004 - Login with wrong username
-│   │   │   ├── TC005 - Login with wrong password
-│   │   ├── SC002 - Booking appointment
-│   │   ├── SC003 - Cek history appointment
+│   │   ├── SC002 - Booking Appointment
+│   │   ├── SC003 - Cek History Appointment
 │   │   ├── SC004 - Logout
 │   │   ├── SC005 - Profile
 │── Object Repository/
-│   ├── Appointment Summary
-│   ├── History
-│   ├── Login
-│   ├── Make Appointment
-│   ├── Navbar
-│   ├── Profile
 │── Test Suites/
-│   ├── Functional Testing/
-│   │   ├── TS Check History Testing
-│   │   ├── TS Login Testing
-│   │   ├── TS Login Testing - BLOCK - MASIH PROBLEM
-│   │   ├── TS Logout
-│   │   ├── TS Make Appointment Testing
-│   ├── TSC Functional Testing
 │── Data Files/
-│   ├── login
-│   ├── makeAppointment
 │── Reports/
 │── Keywords/
 │── Test Listeners/
@@ -70,34 +50,19 @@ CURA-Katalon-Automation/
 - **GitHub** - Untuk manajemen versi kode.
 - **TestNG / JUnit** - Untuk eksekusi dan pelaporan hasil tes.
 
-## 🚀 Test Scenarios
-### 1️⃣ **Login**
-- **TC001 - Verify Login object** → Validasi elemen UI pada halaman login.
-- **TC002 - Login success** → Validasi login dengan kredensial yang benar.
-- **TC003 - Login with empty field** → Validasi error jika field kosong.
-- **TC004 - Login with wrong username** → Cek error jika username salah.
-- **TC005 - Login with wrong password** → Cek error jika password salah.
+## 🚀 Sample Test Script: Check History Appointment
+```groovy
+WebUI.callTestCase(findTestCase('Functional Testing/SC001 - Login/TC002 - Login success'), [('username') : 'John Doe', ('password') : 'ThisIsNotAPassword'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-### 2️⃣ **Book Appointment**
-- **TC001 - Verify Make Appointment object** → Validasi elemen UI di halaman booking.
-- **TC002 - Submit with all fields filled** → Booking appointment dengan data valid.
-- **TC003 - Submit without check apply** → Validasi booking tanpa checklist.
-- **TC007 - Submit without fill Mandatory Field** → Validasi error jika field wajib kosong.
-
-### 3️⃣ **History Appointment**
-- **TC001 - Verify History object** → Validasi tampilan history.
-- **TC002 - Check History** → Cek daftar riwayat appointment.
-- **TC003 - Check history without making an appointment** → Cek apakah history kosong jika belum ada booking.
-
-### 4️⃣ **Logout**
-- **TC001 - Logout with Navbar** → Cek logout dari navbar.
-- **TC002 - Logout with Profile Page** → Cek logout dari halaman profil.
-- **TC003 - Logout and check button logout in navbar** → Validasi tombol logout setelah logout.
-
-### 5️⃣ **Profile**
-- **TC001 - Verify Profile Object** → Validasi elemen di halaman profil.
-- **TC002 - Check Profile** → Cek informasi pengguna di halaman profil.
-- **TC003 - Check Profile without Login** → Cek apakah user tanpa login bisa mengakses halaman profil.
+WebUI.click(findTestObject('Navbar/i_Navbar'))
+WebUI.click(findTestObject('Navbar/a_History'))
+WebUI.verifyElementPresent(findTestObject('History/h2_History'), 0)
+WebUI.verifyElementText(findTestObject('History/div_Header-visitDate'), visitDate)
+WebUI.verifyElementText(findTestObject('History/p_Result-Facility'), facility)
+WebUI.verifyElementText(findTestObject('History/p_Result-Healthcare Program'), healthcareProgram)
+WebUI.verifyElementText(findTestObject('History/p_Result-Comment'), comment)
+```
 
 ## 🔧 How to Run Tests
 ### 1️⃣ Clone Repository
@@ -126,17 +91,9 @@ Reports/
 ```
 Anda dapat melihat hasil pengujian dalam format **HTML, JUnit, atau PDF**.
 
-## 📌 Contribution
-Jika ingin berkontribusi:
-1. Fork repository ini.
-2. Buat branch baru: `git checkout -b feature-nama-fitur`.
-3. Commit perubahan: `git commit -m 'Menambahkan fitur X'`.
-4. Push ke branch: `git push origin feature-nama-fitur`.
-5. Buat Pull Request di GitHub.
-
 ## 📩 Contact
 Jika ada pertanyaan, silakan hubungi:
-📧 Email: teguh.ardama@example.com  
+📧 Email: teguhardama75@gmail.com  
 GitHub: [Teguh-Ardama](https://github.com/Teguh-Ardama)
 
 ---

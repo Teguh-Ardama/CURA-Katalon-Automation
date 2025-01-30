@@ -27,13 +27,3 @@ WebUI.click(findTestObject('Navbar/i_Navbar'))
 
 WebUI.click(findTestObject('Navbar/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Username'), 'John')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
-WebUI.click(findTestObject('Object Repository/Login/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Login/msg_Login Failed'), 0)
-
-WebUI.closeBrowser()
-

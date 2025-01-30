@@ -4,6 +4,7 @@
    <name>TC002 - Check History</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>122beb11-24ad-4164-b2f9-48bfc9ee114d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

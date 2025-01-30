@@ -4,5 +4,6 @@
    <name>TC002 - Submit with all field filled</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>239ca8c8-e906-4f85-baaa-93ca8c301c15</testCaseGuid>
 </TestCaseEntity>

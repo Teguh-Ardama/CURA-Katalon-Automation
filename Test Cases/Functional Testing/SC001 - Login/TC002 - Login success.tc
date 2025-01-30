@@ -4,6 +4,7 @@
    <name>TC002 - Login success</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>46af6bbe-8f52-45a8-b87e-0df152f1746c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

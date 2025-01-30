@@ -17,13 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Navbar/i_Navbar'))
-
-WebUI.click(findTestObject('Navbar/a_Login'))
-
-WebUI.callTestCase(findTestCase('Blocks/Login'), [('username') : 'John Doe', ('password') : 'ThisIsNotAPassword'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Functional Testing/SC001 - Login/TC002 - Login success'), [('username') : 'John Doe', ('password') : 'ThisIsNotAPassword'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Make Appointment/select_Facility'), facility, false)
 
@@ -54,6 +49,7 @@ WebUI.click(findTestObject('Make Appointment/button_Book Appointment'))
 
 if ((visitDate == null) || (visitDate.trim() == '')) {
     WebUI.comment('Field Mandatory belum diisi')
+	WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.verifyElementPresent(findTestObject('Appointment Summary/h2_Appointment Confirmation'), 0)
 

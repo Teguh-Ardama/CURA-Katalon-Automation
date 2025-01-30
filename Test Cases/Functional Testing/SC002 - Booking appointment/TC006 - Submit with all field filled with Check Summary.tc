@@ -4,6 +4,7 @@
    <name>TC006 - Submit with all field filled with Check Summary</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6f506fe4-b08c-4d41-98be-17e747cfe8a5</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

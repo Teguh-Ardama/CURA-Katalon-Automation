@@ -19,17 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Open Login Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Username'), username)
+WebUI.setText(findTestObject('Object Repository/Login/input_Username'), 'John Doel')
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Password'), password)
+WebUI.setText(findTestObject('Object Repository/Login/input_Password'), 'ThisIsNotAPassword')
 
 WebUI.click(findTestObject('Object Repository/Login/button_Login'))
 
-if (WebUI.verifyElementPresent(findTestObject('Make Appointment/h2_Make Appointment'), 0, FailureHandling.OPTIONAL)) {
-    WebUI.comment('Login berhasil, halaman Make Appointment ditemukan.')
-} else {
-    WebUI.verifyElementText(findTestObject('Login/msg_Login Failed'), 'Login failed! Please ensure the username and password are valid.')
+WebUI.verifyElementPresent(findTestObject('Login/msg_Login Failed'), 0)
 
-    WebUI.comment('Login gagal, pesan kesalahan ditampilkan.')
-}
+WebUI.closeBrowser()
 

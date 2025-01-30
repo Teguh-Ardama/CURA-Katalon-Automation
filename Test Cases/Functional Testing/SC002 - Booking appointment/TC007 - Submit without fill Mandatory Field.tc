@@ -4,5 +4,6 @@
    <name>TC007 - Submit without fill Mandatory Field</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>9bd84203-2789-47bc-80a3-2b2f57b24676</testCaseGuid>
 </TestCaseEntity>

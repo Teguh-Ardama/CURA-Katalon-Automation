@@ -4,5 +4,6 @@
    <name>TC001 - Verify Login object</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1bda7f79-bbea-46b5-a20a-df02886e855f</testCaseGuid>
 </TestCaseEntity>

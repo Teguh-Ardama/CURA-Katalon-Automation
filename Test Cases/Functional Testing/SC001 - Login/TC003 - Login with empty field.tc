@@ -4,5 +4,6 @@
    <name>TC003 - Login with empty field</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>1b1dcd8c-bc1f-4d6e-b307-4a7450246511</testCaseGuid>
 </TestCaseEntity>

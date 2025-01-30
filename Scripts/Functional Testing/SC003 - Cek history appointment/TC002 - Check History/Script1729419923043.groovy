@@ -49,6 +49,8 @@ WebUI.click(findTestObject('Make Appointment/button_Book Appointment'))
 
 if ((visitDate == null) || (visitDate.trim() == '')) {
     WebUI.comment('Field Mandatory belum diisi')
+	
+	WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.verifyElementPresent(findTestObject('Appointment Summary/h2_Appointment Confirmation'), 0)
 
@@ -82,7 +84,7 @@ if ((visitDate == null) || (visitDate.trim() == '')) {
 
     WebUI.verifyElementText(findTestObject('History/p_Result-Facility'), facility)
 
-    if (applyReadmission == true) {
+    if (applyReadmission == 'TRUE') {
         WebUI.verifyElementText(findTestObject('Appointment Summary/p_Result-applyReadmission'), 'Yes')
     } else {
         WebUI.verifyElementText(findTestObject('Appointment Summary/p_Result-applyReadmission'), 'No')

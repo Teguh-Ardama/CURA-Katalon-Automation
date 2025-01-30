@@ -33,11 +33,11 @@ WebUI.verifyElementVisible(findTestObject('Login/p_Please login to make appointm
 
 WebUI.verifyElementVisible(findTestObject('Login/Demo Account/label_Demo account'))
 
-WebUI.verifyElementVisible(findTestObject('Login/Demo Account/span_lock'))
+WebUI.verifyElementVisible(findTestObject('Login/Demo Account/span_user'))
 
 WebUI.verifyElementVisible(findTestObject('Login/Demo Account/inputFormControl_Username'))
 
-WebUI.verifyElementVisible(findTestObject('Login/Demo Account/span_user'))
+WebUI.verifyElementVisible(findTestObject('Login/Demo Account/span_lock'))
 
 WebUI.verifyElementVisible(findTestObject('Login/Demo Account/inputFormControl_Password'))
 

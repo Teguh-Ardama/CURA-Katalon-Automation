@@ -52,9 +52,11 @@ CURA-Katalon-Automation/
 
 ## 🚀 Sample Test Script: Check History Appointment
 ```groovy
+//Login
 WebUI.callTestCase(findTestCase('Functional Testing/SC001 - Login/TC002 - Login success'), [('username') : 'John Doe', ('password') : 'ThisIsNotAPassword'], 
     FailureHandling.STOP_ON_FAILURE)
 
+//Make Appointment
 WebUI.selectOptionByValue(findTestObject('Make Appointment/select_Facility'), facility, false)
 
 if (applyReadmission == 'TRUE') {
@@ -64,31 +66,25 @@ if (applyReadmission == 'TRUE') {
 switch (healthcareProgram) {
     case 'Medicare':
         WebUI.click(findTestObject('Make Appointment/rb_Medicare'))
-
         break
     case 'Medicaid':
         WebUI.click(findTestObject('Make Appointment/rb_Medicaid'))
-
         break
     default:
         WebUI.click(findTestObject('Make Appointment/rb_None'))
-
         break
 }
 
 WebUI.setText(findTestObject('Make Appointment/input_Visit Date (Required)'), visitDate)
-
 WebUI.setText(findTestObject('Make Appointment/textarea_Comment'), comment)
-
 WebUI.click(findTestObject('Make Appointment/button_Book Appointment'))
 
+//Appointment History
 if ((visitDate == null) || (visitDate.trim() == '')) {
-    WebUI.comment('Field Mandatory belum diisi')
-	
+    	WebUI.comment('Field Mandatory belum diisi')
 	WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.verifyElementPresent(findTestObject('Appointment Summary/h2_Appointment Confirmation'), 0)
-
     WebUI.verifyElementText(findTestObject('Appointment Summary/p_Result-Facility'), facility)
 
     if (applyReadmission == 'TRUE') {
@@ -98,25 +94,19 @@ if ((visitDate == null) || (visitDate.trim() == '')) {
     }
     
     WebUI.verifyElementText(findTestObject('Appointment Summary/p_Result-healthcareProgram'), healthcareProgram)
-
     WebUI.verifyElementText(findTestObject('Appointment Summary/p_Result-visitDate'), visitDate)
-
     WebUI.verifyElementText(findTestObject('Appointment Summary/p_Result-Comment'), comment)
 }
 
+//History
 if ((visitDate == null) || (visitDate.trim() == '')) {
     WebUI.comment('Field Mandatory belum diisi')
-
     WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 } else {
     WebUI.click(findTestObject('Navbar/i_Navbar'))
-
     WebUI.click(findTestObject('Navbar/a_History'))
-
     WebUI.verifyElementPresent(findTestObject('History/h2_History'), 0)
-
     WebUI.verifyElementText(findTestObject('History/div_Header-visitDate'), visitDate)
-
     WebUI.verifyElementText(findTestObject('History/p_Result-Facility'), facility)
 
     if (applyReadmission == 'TRUE') {
@@ -126,7 +116,6 @@ if ((visitDate == null) || (visitDate.trim() == '')) {
     }
     
     WebUI.verifyElementText(findTestObject('History/p_Result-Healthcare Program'), healthcareProgram)
-
     WebUI.verifyElementText(findTestObject('History/p_Result-Comment'), comment)
 }
 ```

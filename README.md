@@ -2,6 +2,7 @@
 
 ## 📌 Overview
 **CURA-Katalon-Automation** adalah proyek otomatisasi pengujian berbasis **Katalon Studio** untuk aplikasi **CURA Healthcare Service**. Proyek ini mencakup pengujian end-to-end (E2E) dan functional testing untuk skenario login, booking appointment, history appointment, dan logout guna memastikan kualitas aplikasi.
+URL : https://katalon-demo-cura.herokuapp.com/
 
 ## 📂 Project Structure
 ```
